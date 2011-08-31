@@ -1,5 +1,4 @@
-<?php 
-	$files = $this->controller->getFiles();
+<?php defined('C5_EXECUTE') or die("Access Denied.");
 	
 	echo '<table width="100%" class="tbl-fileset"><thead><tr><th>Date</th><th>Title</th></tr></thead><tbody>';
 	foreach($files as $file){

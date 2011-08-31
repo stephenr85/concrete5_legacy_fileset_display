@@ -1,6 +1,4 @@
-<?php 
-	$files = $this->controller->getFiles();
-	$fh = Loader::helper('file');
+<?php defined('C5_EXECUTE') or die("Access Denied.");
 	
 	echo '<ul class="list-fileset simple">';
 	foreach($files as $file){

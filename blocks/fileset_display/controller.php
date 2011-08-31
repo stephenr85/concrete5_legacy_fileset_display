@@ -138,6 +138,10 @@
 			return NULL;	
 		}
 		
+		function view(){
+			$this->set('files', $this->getFiles());
+		}
+		
 		public function validate($args) {
 			$e = Loader::helper('validation/error');
 			if ($args['fsID'] < 1) {
