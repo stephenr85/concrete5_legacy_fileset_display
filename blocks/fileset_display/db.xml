@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btFileSetDisplay">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="fsID" type="I"><unsigned/></field>
+		<field name="fExts" type="C" size="56"></field>
+		<field name="max" type="I"><unsigned/><default value="0"/></field>		
+		<field name="sortBy" type="C" size="56"></field>
+		<field name="sortOrder" type="C" size="4"></field>
+		<field name="linkTarget" type="C" size="24"></field>
+	</table>
+</schema>
