@@ -1,5 +1,5 @@
 <?php defined('C5_EXECUTE') or die(_("Access Denied."));
-	class FileSetDisplayBlockController extends BlockController {
+	class FilesetDisplayBlockController extends BlockController {
 		
 		protected $btDescription = "A block for displaying file sets.";
 		protected $btName = "File Set Display";
